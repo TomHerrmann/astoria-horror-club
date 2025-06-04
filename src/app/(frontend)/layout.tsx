@@ -14,7 +14,6 @@ export default function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="en" className="dark">
       <body>
-        <Header />
         <main>{children}</main>
         <Footer />
       </body>
