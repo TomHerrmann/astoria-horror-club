@@ -3,7 +3,6 @@ import type { ContainerProps, LinkProps, TextProps } from '@react-email/componen
 import { tailwindToCSS } from './utils/utils'
 import {
   AHC_SITE_URL,
-  AHC_DISCORD_INVITE_URL,
   DISCORD_ICON_PNG_URL,
   AHC_INSTAGRAM_URL,
   INSTAGRAM_ICON_PNG_URL,
@@ -35,7 +34,7 @@ function EmailFooter({
             </Link>
           </Column>
           <Column style={{ padding: 10 }}>
-            <Link href={AHC_DISCORD_INVITE_URL}>
+            <Link href={process.env.DISCORD_INVITE_URL}>
               <Img height={24} src={DISCORD_ICON_PNG_URL} />
             </Link>
           </Column>

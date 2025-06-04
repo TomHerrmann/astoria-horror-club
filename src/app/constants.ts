@@ -2,8 +2,6 @@ export const AHC_SITE_URL = 'https://www.astoriahorrorclub.com'
 
 export const AHC_EMAIL_ADDRESS = 'boo@astoriahorrorclub.com'
 
-export const AHC_DISCORD_INVITE_URL = 'https://discord.gg/HubAHgKx'
-
 export const DISCORD_ICON_SVG_URL =
   'https://fzuxxxhgqwm9izz9.public.blob.vercel-storage.com/Discord-Symbol-Blurple-lqt9tohtjIt6VHGUs7tj0wSPGeNXBD.svg'
 
