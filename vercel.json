@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/links",
+      "destination": "https://www.zerovisioncinema.com/links",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "destination": "https://zerovisioncinema.com/astoriahorrorclub/$1",
       "permanent": true
